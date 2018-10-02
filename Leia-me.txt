@@ -1,0 +1,23 @@
+                         Trabalho N2 - B1
+--------------------------------------------------------------------------------
+Professores: Daniel Carvalho - Linguagem de Programação II
+	     Sidney Galeote  - Engenharia de Software
+
+Alunos:      Amanda Guttierres Ruza  - 081160013
+	     Giovanni Mallia         - 081160048
+	     Victor Oldani Marostica - 081160045
+
+Turma:       EC6
+--------------------------------------------------------------------------------
+
+ONDE ENCONTRAR CADA COISA:
+
+
+- Diagramas de robustez, de caso de uso, modelo de domínio e dicionário de dados 
+  estão na pasta Diagramas
+
+- A transcrição da entrevista e os casos de usos textuais estão na pasta Casos
+  de Uso Textuais
+	• Os casos de uso textuais também constam nos diagramas de robustez
+
+- Os protótipos de tela para Java encontram-se na pasta Protótipos de Tela

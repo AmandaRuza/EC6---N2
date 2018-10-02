@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="933.0" prefWidth="1059.0" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="samplefx.ctrl.FXML2Controller">
+   <children>
+      <AnchorPane prefHeight="933.0" prefWidth="1059.0">
+         <children>
+            <Label layoutX="256.0" layoutY="199.0" text="Lista de Produtos">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="615.0" layoutY="199.0" text="Quantidade">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <ComboBox editable="true" layoutX="16.0" layoutY="93.0" prefHeight="25.0" prefWidth="273.0" />
+            <Label layoutX="16.0" layoutY="67.0" text="Selecionar Produto">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="349.0" layoutY="67.0" text="Quantidade">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <TextField layoutX="349.0" layoutY="93.0" />
+            <Button cache="true" ellipsisString="x" graphicTextGap="10.0" layoutX="736.0" layoutY="236.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="40.0" text="x" textAlignment="CENTER" textFill="#cc0a0a" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="16.0" layoutY="14.0" prefHeight="35.0" prefWidth="231.0" text="Atualizar Estoque">
+               <font>
+                  <Font name="Aharoni Bold" size="21.0" />
+               </font>
+            </Label>
+            <GridPane disable="true" gridLinesVisible="true" layoutX="16.0" layoutY="235.0" prefHeight="120.0" prefWidth="702.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="616.0" minWidth="10.0" prefWidth="583.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="307.0" minWidth="10.0" prefWidth="119.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <Separator layoutX="32.0" layoutY="181.0" prefHeight="12.0" prefWidth="968.0" />
+            <Button ellipsisString="+" layoutX="14.0" layoutY="135.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="104.0" text="Adicionar" textFill="#575656">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </Button>
+            <Button ellipsisString="+" layoutX="367.0" layoutY="426.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Atualizar Estoque" textFill="#575656">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </Button>
+            <Button ellipsisString="+" layoutX="615.0" layoutY="426.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" text="Cancelar Operação" textFill="#575656">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
